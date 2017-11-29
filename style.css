@@ -1,0 +1,434 @@
+
+
+
+
+/*Bottoni*/
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+/*Fine Bottoni*/
+
+
+
+/*seconda section*/
+
+
+.about-us{
+	
+    width: 100%;
+    height: 400px;
+    background-image: url('img/fav.png');
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-size: contain;
+    background-color: #f2f2f2 ;
+   
+   
+}
+
+
+@media screen  and (max-width: 800px) {
+    .about-us {
+        background-image: none;
+        width:100%;
+	    height:auto;
+    }
+    .about-us h2{
+    width:100%;
+	    height:auto;	
+    word-spacing: 2px;
+    text-align: center;
+    
+    	}
+    .about-us p{
+    	width:100%;
+	    height:auto;
+	   text-align: center;
+    	  line-height: 120%;
+    	
+    	}
+    	
+
+}
+
+
+
+
+@media screen and (max-width:1100px) and (min-width:800px)  {
+    .about-us {
+        background-image: url('img/fav.png');
+         background-repeat: no-repeat;
+         background-position: 0%;
+    }
+    .about-us h2{
+    width:70%;
+	    height:auto;	
+    word-spacing: 2px;
+    text-align: center;
+    padding-right:15%;
+    padding-left: 15%;
+    	}
+    .about-us p{
+    	width:70%;
+	    height:auto;
+	   text-align: center;
+    	  line-height: 120%;
+    	padding-right:15%;
+    padding-left: 15%;
+    	}
+}
+
+
+
+.about-us h2{
+padding-right: 40px;
+text-align: center;
+color:black;
+font-size:30px;
+color:#b20000;
+word-spacing: 2px;
+
+
+}
+
+
+.about-us p{
+padding-right: 40px;
+text-align: center;
+color:black;
+font-size:20px;
+font-family: 'PT Serif', serif;
+word-spacing: 2px;
+padding-top:5px;
+font-weight: bold;
+}
+
+
+.descr{
+	
+	float:right;
+	padding:100px;
+}
+
+/*Sezione 2 foto piatti*/
+
+.foto-piatti{
+	width:100%;
+	background-color:#111111;
+	height:500px;
+	
+}
+
+.foto-piatti  img{
+	float:right;
+	width:50%;
+	height:auto;
+	
+}
+
+@media screen and (max-width:1800px) {
+   .foto-piatti{
+	width:100%;
+	background-color:#111111;
+	height:auto;
+	padding-right:20px;
+}
+
+}
+
+/* Fine sezione 2 piatti */
+
+
+
+/* sezione AYCE*/
+
+.ayce{
+	display:inline-block;
+	width:100%;
+	height:300px;
+    text-align: center;
+    padding-top:20px;
+    font-family: 'Kaushan Script', cursive;
+    word-spacing: 2px;
+	
+}
+
+.ayce h1{
+	padding-top:20px;
+	font-size:30px;
+	color:black;
+	word-spacing: 2px;
+	padding-bottom: 5px;
+
+	
+}
+
+ .ayce  img{
+ 	padding:50px;
+ 	width:70px;
+ 	height:70px;
+ 	
+ }
+
+.ayce aside{
+	color:#b20000;
+	word-spacing: 2px;
+	padding-top:5px;
+}
+
+
+/* fine sezione ayce*/
+
+
+/*Sezione Cibo Controllato*/
+
+.cibo-controllato{
+	width:100%;
+	height:570px;
+	display:block;
+	padding:0;
+}
+
+.cibo-controllato img{
+	width: 100%;
+	height:100%;
+  
+}
+
+@media screen and (max-width:848px) {
+   .cibo-controllato{
+	width:100%;
+	height:auto;
+	
+}
+
+}
+
+
+/* Sezione Pesce e Carne*/
+
+.controllo{
+	height:300px;
+	display:block;
+	color:white;
+	width: 100%;
+	word-spacing: 2px;
+}
+
+.controllo h2{
+	text-align: center;
+	color:#b20000;
+	font-size: 30px;
+	padding:25px;
+}
+
+.controllo p{
+	text-align:center;
+	color:black;
+	font-size:20px;
+	font-family: 'PT Serif', serif;
+	 line-height: 120%;
+	 padding:5px;
+}
+
+.controllo .red{
+	color:#b20000;
+}
+/*Fine Sezione Pesce e Carne*/
+
+
+
+/*Sezione Tre immagini*/
+
+.set-tre-img{
+	width:100%;
+	height:570px;
+	text-align: center;
+
+}
+
+.set-tre-img img{
+	width:33.3%;
+	height:100%;
+	float:left;
+	 display: inline-block;
+}
+
+
+@media screen and (max-width: 900px) {
+	.set-tre-img{
+	width:100%;
+	height:auto;
+
+}
+
+.set-tre-img img{
+	width:100%;
+	height:auto;
+}
+}
+
+
+
+/*Sezione MENU*/
+
+.menu{
+	width:100%;
+	
+	height:450px;
+	display:block;
+	padding-top:50px;
+	font-size:30px;
+	color:black;
+	padding-bottom: 20px;
+
+}
+
+.menu-pranzo{
+	width:50%;
+	height:100%;
+	float:left;
+	display:block;
+  text-align: center;
+  
+}
+
+.menu-pranzo h1{
+	color:#b20000;
+	padding:25px;
+	font-size:50px;
+}
+
+.menu-pranzo p{
+	padding:5px;
+}
+
+.menu-pranzo h3{
+	padding:8px;
+}
+.menu-cena{
+	width:50%;
+	height:100%;
+	float:left;
+	display:block;
+	text-align: center;
+	
+}
+
+
+.menu-cena h1{
+	color:#b20000;
+	padding:25px;
+	font-size:50px;
+}
+
+.menu-cena p{
+	padding:5px;
+}
+
+.menu-cena h3{
+	padding:8px;
+}
+
+
+.red{
+	color:#b20000;
+}
+
+.button5 {
+    background-color: #b20000;
+    color: red;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    display:inline-block;
+}
+
+.button5:hover {
+    background-color: black;
+    color: white;
+}
+
+ .button5 a{
+	color:white;
+	font-size:20px;
+	text-decoration: none;
+	padding-bottom:5px;
+}
+/*fine sezione MENU */
+
+
+
+
+
+/*Sezione SLIDER*/
+
+
+.Slider{
+	display:block;
+	height:900px;
+	width:100%;
+	padding-top: 10px;
+}
+
+@media screen and (max-width:848px) {
+   .Slider{
+	width:100%;
+	height:auto;
+	
+}
+
+}
+
+/*fine sezione SLIDER*/
+
+
+/*sezione REGOLAMENTO*/
+
+.regolamento{
+	width:100%;
+	height:380px;
+	display:block;
+	text-align:center;
+    
+}
+
+
+.regolamento h2 {
+	font-size:30px;
+	color:#b20000;
+	padding:20px;
+}
+
+.regolamento p {
+	font-size:20px;
+	color:black;
+	padding:5px;
+	font-family: 'PT Serif', serif;
+	word-spacing: 2px;
+	font-weight: bold;
+	
+    	
+}
+
+.regolamento .red{
+	color:#b20000;
+}
+
+/*fine sezione REGOLAMENTO */
+
+
+

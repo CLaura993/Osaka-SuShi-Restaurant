@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Osaka Japanese Resturant</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="header.css" />
+		<link rel="stylesheet" href="footer.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|PT+Serif" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head> 
+
+<body>
+ <header>
+  <nav class="nav-sup">
+  <ul>
+  <li><img class="logo" src="img/fav.png"/></li>
+  <li><a href="\index.html">Home</a></li>
+  <li><a href="\about_us.html">About Us</a></li>
+  <li><a href="\menu.html">Menu AYCE</a></li>
+  </ul>
+  </nav>
+  </header>
+
+<section class="prima-sec">
+ <img src="img/risto.jpg"/>
+</section>
+
+
+
+
+<section class="about-us">
+<div class="descr">
+<h2>Osaka Japanese Resturant</h2>
+<p>Lavoriamo</p><p> con passione e in sicurezza</p><p>per regalare ai nostri clienti il </p><p>Giappone</p><p> in un piatto.</p>
+</div>
+</section>
+
+
+
+<section class="foto-piatti">
+<img src="cena-img/prima.jpg">
+<img src="cena-img/seconda.jpg">
+</section>
+
+
+
+<section class="ayce">
+<h1>Maestri nella formula</h1><h1> <aside>AYCE</aside><h1> e nel </h1> <h1><aside>Menù A la Carte</aside></h1>
+<a href="https://www.tripadvisor.it/Restaurant_Review-g187785-d12130824-Reviews-Restaurant_Giapponese_International_Kitchen-Naples_Province_of_Naples_Campania.html">
+<img src="img/trip.png"/></a>
+</section>
+
+<section class="cibo-controllato">
+<img src="img/cibo-sicuro.jpg"/>
+</section>
+
+<section class="controllo">
+<h2>Il pesce e la carne</h2>
+<p>Da noi utilizzati sono freschissimi e certificati.</p>
+<p>Il pesce subisce un abbattimento di <p class="red">-20° per 24H</p> <p>prima di essere servito.</p>
+</section>
+
+<section class="set-tre-img">
+<img src="cena-img/a.jpg"/>
+<img src="cena-img/b.jpg"/>
+<img src="cena-img/c.jpg"/>
+</section>
+
+
+
+<section class="menu">
+<div class="menu-pranzo">
+<h1>Pranzo</h1>
+<h3>All You Can Eat</h3>
+<p>SOLO <p class="red">€13.90</p>
+<p>Sab,Dome e festivi: <p class="red">€14.90</p>
+<button class="button button5"><a href="" target="_blank">Menu AYCE</a></button>
+</div>
+<div class="menu-cena">
+<h1>Cena</h1>
+<h3>All You Can Eat</h3>
+<p>SOLO <p class="red">€22.90</p>
+<p>Sab,Dome e festivi: <p class="red">€23.90</p>
+<button class="button button5"><a href="" target="_blank">Menu AYCE</a></button>
+</div>
+</section>
+
+
+<section class="slider">
+  <img class="Slider" src="cena-img/gamberi.jpg">
+  <img class="Slider" src="cena-img/sal.jpg">
+  <img class="Slider" src="cena-img/sush.jpg">
+</section>
+
+
+
+<section class="regolamento">
+<h2>Poche ma semplici regole</h2>
+<p>La consumazione al tavolo é </p><p class="red">Obbligatoria</p> <p>sia per gli adulti e sia per i bambini.</p>
+ 
+<p>Il nostro menu "no limits" è <p class="red">Senza Limiti</p>  <p>(Bevande,Dolci e Caffe Esclusi).</p>
+ 
+<p>Il mancato rispetto del regolamento<p>causera il conteggio di una maggiorazione</p><p> dai 5,00 ai 20,00€ per piatto non consumato.</p>
+</section>
+
+
+
+<section class="img-semplice-locale"/>
+<div class="lato">
+<h2>Indirizzo:</h2>
+<h2>Via Petronio n°10, Santa Lucia, 80132, Napoli
+</h2><img src="img/dove-siamo.png">
+<h2>Orari:</h2>
+<p>Lunedi-Domenica: 11:00 - 15:00</p><p>18:00 - 00:00 </p>
+<h1>Contatti</h1>
+<p>TEL: +39 081 19576019</p>
+<p>Social</p>
+<a href="https://www.facebook.com/sushi.giappone.it/" target="_blank" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</section>
+
+
+
+
+ 
+  </nav>
+
+
+
+
+
+  <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Slider");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  </footer>
+</body>
+</html>
+
