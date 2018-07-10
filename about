@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Osaka Japanese Resturant</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="style-about.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|PT+Serif" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head> 
+
+<body>
+ <header>
+  <nav class="nav-sup">
+  <ul>
+  <li><img class="logo" src="img/fav.png"/></li>
+  <li><a href="C:\Users\Lauretta\Desktop\MIO\index.html">Home</a></li>
+  <li><a href="C:\Users\Lauretta\Desktop\MIO\about_us.html">About Us</a></li>
+  <li><a href="C:\Users\Lauretta\Desktop\MIO\menu.html">Menu AYCE</a></li>
+  </ul>
+  </nav>
+  </header>
+
+<section class="prima-sec">
+ <img src="img/risto.jpg"/>
+</section>
+
+
+<section class="fornitori">
+<h1>I Nostri Fornitori</h1>
+ <img src="img/fornitori.jpg"/>
+</section>
+
+
+<section class="gruppo">
+
+<h1>Il Nostro Staff</h1>
+<img src="img/staff.jpg"/>
+<div class="staff">
+</section>
+
+
+
+<section class="carte-menu">
+<h2>Staff di sala cortese e attento alla Clientela</h2>
+<h2>Sushi Chef di alto livello per preparare il Sushi secondo ricetta Giapponese</h2>
+</section>
+
+
+
+<section class="img-semplice-locale"/>
+<div class="lato">
+<h2>Indirizzo:</h2>
+<h2>Via Petronio n°10, Santa Lucia, 80132, Napoli
+</h2><img src="img/dove-siamo.png">
+<h2>Orari:</h2>
+<p>Lunedi-Domenica: 11:00 - 15:00</p><p>18:00 - 00:00 </p>
+<h1>Contatti</h1>
+<p>TEL: +39 081 19576019</p>
+<p>Social</p>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</section>
