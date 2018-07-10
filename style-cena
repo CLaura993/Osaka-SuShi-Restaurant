@@ -1,0 +1,110 @@
+
+
+
+/*Fine Section Prima Immagine*/
+
+
+
+
+
+/*Inizio Section Immagini del Menu*/
+
+/*Inizio Sezione Menu ayce a pranzo*/
+.carte-menu{
+    width:100%;
+    height:300px;
+    display:inline-block;
+    padding:0;
+}
+
+
+.carte-menu h2{
+    font-size:60px;
+    color:#b20000;
+    text-align: center;
+    padding:10px;
+    word-spacing: 2px;
+    line-height: 120%;
+}
+
+@media screen and (max-width:848px) {
+   .carte-menu{
+    width:100%;
+    height:auto;
+
+}
+
+}
+
+/*Fine Sezione Menu ayce a pranzo*/
+
+/*Sezione 2 foto piatti*/
+
+.foto-piatti{
+    width:100%;
+    background-color:#111111;
+    height:500px;
+    
+}
+
+.foto-piatti  img{
+    float:right;
+    width:50%;
+    height:auto;
+    
+}
+
+@media screen and (max-width:1800px) {
+   .foto-piatti{
+    width:100%;
+    background-color:#111111;
+    height:auto;
+    padding-right:20px;
+}
+
+}
+
+/* Fine sezione 2 piatti */
+
+
+
+
+
+.piattif{
+     width:100%;
+    height:570px;
+    padding:0;
+    display:inline-block;
+    
+}
+
+.piattif img{
+    width: 100%;
+    height:auto;
+
+
+}
+.piattif h1{
+    font-size:60px;
+    color:#b20000;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    word-spacing: 2px;
+    line-height: 120%;
+}
+
+@media screen and (max-width:848px) {
+   .piattif{
+    width:100%;
+    height:auto;
+
+}
+
+}
+
+
+
+
+
+
