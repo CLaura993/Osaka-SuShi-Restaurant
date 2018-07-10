@@ -1,0 +1,131 @@
+
+
+
+/*Fine sezione prima Immagine*/
+
+
+/*Sezione Fornitori*/
+
+.fornitori{
+    width:100%;
+    height:570px;
+    display:inline-block;
+    padding:0;
+}
+
+.fornitori img{
+    width: 100%;
+    height:auto;
+}
+
+.fornitori h1{
+    font-size:60px;
+    color:#b20000;
+    text-align: center;
+    padding:100px;
+
+}
+
+@media screen and (max-width:848px) {
+   .prima-sec{
+    width:100%;
+    height:auto;
+
+}
+
+
+
+.fornitori h1{
+    font-size:60px;
+    color:#b20000;
+    text-align: center;
+    padding:50px;
+   
+}
+
+}
+
+
+/*Fine Sezione Fornitori*/
+
+
+/*Inizio Sezione Gruppo*/
+
+.gruppo{
+     width:100%;
+    height:570px;
+    padding:0;
+    display:inline-block;
+}
+
+.gruppo img{
+    width: 100%;
+    height:auto;
+}
+
+.gruppo h1{
+    font-size:60px;
+    color:#b20000;
+    text-align: center;
+    padding:100px;
+}
+
+
+
+@media screen and (max-width:848px) {
+   .gruppo{
+    width:100%;
+    height:auto;
+
+}
+
+.gruppo h1{
+    font-size:60px;
+    color:#b20000;
+    text-align: center;
+    padding:50px;
+}
+}
+
+/*Fine Sezione Gruppo*/
+
+/*Inizio Sezione Staff*/
+
+/*Inizio Sezione Menu ayce a pranzo*/
+.carte-menu{
+    width:100%;
+    height:270px;
+    display:inline-block;
+    padding:0;
+}
+
+
+.carte-menu h2{
+    font-size:30px;
+    color:black;
+    text-align: center;
+    padding:30px;
+
+    word-spacing: 2px;
+    line-height: 120%;
+    
+}
+
+@media screen and (max-width:848px) {
+   .carte-menu{
+    width:100%;
+    height:auto;
+
+}
+
+}
+
+/*Fine Sezione Menu ayce a pranzo*/
+
+
+/*Fine Sezione Staff*/
+
+
+
+
+
